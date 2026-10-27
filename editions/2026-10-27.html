@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="edition-date" content="2026-10-27">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>আজকের খবর · ২৭ অক্টোবর ২০২৬</title>
+<meta name="description" content="এক নজরে আজকের শীর্ষ খবর: বাংলাদেশ ও বিশ্ব">
+<style>
+@font-face{font-family:"Anek";font-weight:500;src:url("/assets/fonts/anek-500-52a601ba.woff2") format("woff2");}
+@font-face{font-family:"Anek";font-weight:700;src:url("/assets/fonts/anek-700-869cfa87.woff2") format("woff2");}
+@font-face{font-family:"Anek";font-weight:800;src:url("/assets/fonts/anek-800-1a51ac19.woff2") format("woff2");}
+@font-face{font-family:"Anek";font-weight:500;src:url("/assets/fonts/anek-500-latin-72e3f640.woff2") format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Anek";font-weight:700;src:url("/assets/fonts/anek-700-latin-edf25c74.woff2") format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Anek";font-weight:800;src:url("/assets/fonts/anek-800-latin-b1224136.woff2") format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Hind";font-weight:400;src:url("/assets/fonts/hind-400-8ae56aab.woff2") format("woff2");}
+@font-face{font-family:"Hind";font-weight:500;src:url("/assets/fonts/hind-500-7f39fcb7.woff2") format("woff2");}
+@font-face{font-family:"Hind";font-weight:600;src:url("/assets/fonts/hind-600-b92b5da6.woff2") format("woff2");}
+@font-face{font-family:"Hind";font-weight:400;src:url("/assets/fonts/hind-400-latin-cdc41415.woff2") format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Hind";font-weight:500;src:url("/assets/fonts/hind-500-latin-50c07c57.woff2") format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Hind";font-weight:600;src:url("/assets/fonts/hind-600-latin-c39d0db6.woff2") format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+
+:root{
+  --paper:#F3EDE1; --card:#FFFDF8; --ink:#16211C; --muted:#5E6A63;
+  --green:#0B4A37; --green-d:#073326; --red:#E1323F; --amber:#E9A23B;
+  --navy:#111F36; --navy-2:#1A2C4A; --gold:#F2C14E; --line:#E3DACA;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--paper)}
+body{width:1080px;font-family:"Hind",sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+h1,h2,h3,.num,.kicker{font-family:"Anek",sans-serif}
+svg.ic{width:100%;height:100%}
+
+/* ---------- Masthead ---------- */
+.mast{position:relative;overflow:hidden;background:var(--green-d);color:#F6F0E3;padding:64px 64px 56px}
+.mast .disc{position:absolute;right:-120px;top:-60px;width:460px;height:460px;border-radius:50%;background:var(--red);opacity:.95}
+.mast .disc2{position:absolute;right:250px;top:250px;width:120px;height:120px;border-radius:50%;border:3px solid rgba(246,240,227,.18)}
+.mast .stripe{position:absolute;left:0;bottom:0;height:10px;width:100%;background:linear-gradient(90deg,var(--red) 0 70%,var(--gold) 70% 100%)}
+.pill{display:inline-flex;align-items:center;gap:10px;background:#F6F0E3;color:var(--green-d);font-family:"Anek";font-weight:700;font-size:24px;padding:6px 18px 4px;border-radius:999px;position:relative}
+.pill .dot{width:12px;height:12px;border-radius:50%;background:var(--red)}
+.mast h1{position:relative;font-weight:800;font-size:132px;line-height:1.02;margin:22px 0 10px;letter-spacing:-1px}
+.mast .sub{position:relative;font-size:30px;font-weight:500;opacity:.92;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.mast .sub .sep{width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.legend{position:relative;margin-top:30px;display:flex;align-items:center;gap:16px;font-family:"Anek";font-size:22px;font-weight:500}
+.legend .bar{flex:0 0 420px;height:14px;border-radius:999px;overflow:hidden;display:flex}
+.legend .bar i{display:block;height:100%}
+
+/* ---------- Section heads ---------- */
+.sec{padding:44px 56px 8px}
+.sechead{display:flex;align-items:center;gap:18px;margin-bottom:26px}
+.sechead h2{font-weight:800;font-size:54px;line-height:1}
+.sechead .rule{flex:1;height:3px;background:var(--ink);opacity:.85}
+.flag{width:78px;height:47px;border-radius:6px;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.18);flex:none}
+
+/* ---------- Cards ---------- */
+.card{background:var(--card);border-radius:22px;border:1px solid var(--line);box-shadow:0 1px 0 rgba(0,0,0,.03),0 10px 24px -14px rgba(20,30,25,.25);padding:30px 32px;position:relative}
+.kicker{display:inline-block;font-weight:700;font-size:20px;letter-spacing:.3px;color:#fff;background:var(--green);padding:5px 14px 3px;border-radius:8px;margin-bottom:14px}
+.kicker.red{background:var(--red)} .kicker.amber{background:#B9731A} .kicker.ink{background:var(--ink)}
+.card h3{font-weight:700;font-size:38px;line-height:1.18;margin-bottom:10px}
+.card p{font-size:25px;line-height:1.55;color:#2C3832;font-weight:500}
+.icbox{width:68px;height:68px;border-radius:18px;display:grid;place-items:center;padding:15px;flex:none}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:22px}
+.full{margin-bottom:22px}
+
+/* hero */
+.hero{padding:0;overflow:hidden;border:none;background:var(--card)}
+.hero .top{display:grid;grid-template-columns:250px 1fr;gap:30px;padding:34px 36px 26px;align-items:center}
+.flags{position:relative;height:190px}
+.flags .f1,.flags .f2{position:absolute;width:190px;height:114px;border-radius:12px;overflow:hidden;box-shadow:0 12px 26px -10px rgba(0,0,0,.45)}
+.flags .f1{left:0;top:0;transform:rotate(-7deg)}
+.flags .f2{left:52px;top:70px;transform:rotate(6deg);border:1px solid #E6E1D8}
+.hero h3{font-size:50px;line-height:1.12;margin-bottom:12px}
+.stats{display:grid;grid-template-columns:1.35fr 1fr 1fr;background:var(--green);color:#F6F0E3}
+.stat{padding:26px 30px 24px;border-right:1px solid rgba(255,255,255,.14)}
+.stat:last-child{border-right:none}
+.stat .num{font-weight:800;font-size:58px;line-height:1;color:#fff}
+.stat .num small{font-size:30px;font-weight:700;margin-left:6px;color:var(--gold)}
+.stat .lbl{font-size:22px;line-height:1.4;margin-top:10px;opacity:.9;font-weight:500}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.tag{font-family:"Anek";font-weight:500;font-size:20px;padding:5px 14px 3px;border-radius:999px;background:#E9F1EC;color:var(--green);border:1px solid #CFE0D6}
+
+/* economy bars */
+.econ .head{display:flex;gap:22px;align-items:flex-start;margin-bottom:22px}
+.bars{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.bargrp .t{font-family:"Anek";font-weight:700;font-size:25px;margin-bottom:14px}
+.bl{display:flex;justify-content:space-between;font-size:21px;font-weight:600;color:var(--muted);margin-bottom:6px}
+.bl b{color:var(--ink);font-family:"Anek";font-size:24px}
+.track{height:26px;border-radius:8px;background:#EEE7DA;margin-bottom:14px;overflow:hidden}
+.fill{height:100%;border-radius:8px}
+.note{font-size:19px;color:var(--muted);margin-top:8px;line-height:1.45}
+
+/* dengue */
+.dengue{background:#2A0E10;color:#FCEDEA;border:none;overflow:hidden}
+.dengue::after{content:"";position:absolute;right:-80px;bottom:-110px;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle,rgba(225,50,63,.55),rgba(225,50,63,0) 70%)}
+.dengue .grid{display:grid;grid-template-columns:330px 1fr;gap:30px;align-items:center;position:relative;z-index:1}
+.dengue .big{font-family:"Anek";font-weight:800;font-size:132px;line-height:.9;color:#FF5A66}
+.dengue .bigl{font-family:"Anek";font-size:27px;font-weight:600;margin-top:8px}
+.dengue h3{color:#fff}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
+.chip{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px 16px 14px}
+.chip .num{font-weight:800;font-size:40px;line-height:1;color:var(--gold)}
+.chip .l{font-size:19px;line-height:1.4;margin-top:8px;opacity:.92}
+.tip{position:relative;z-index:1;margin-top:22px;display:flex;gap:14px;align-items:center;font-size:22px;font-weight:500;background:rgba(242,193,78,.14);border-left:5px solid var(--gold);padding:12px 18px;border-radius:10px}
+
+/* small cards */
+.sm{display:flex;flex-direction:column}
+.sm .tophd{display:flex;gap:16px;align-items:center;margin-bottom:12px}
+.sm h3{font-size:32px;margin-bottom:8px}
+.sm p{font-size:23px}
+.bignum-inline{font-family:"Anek";font-weight:800;color:var(--red)}
+
+/* cricket */
+.cricket{background:var(--green);color:#F6F0E3;border:none;overflow:hidden}
+.cricket h3{color:#fff}
+.cricket p{color:#E3EEE7}
+.ball{position:absolute;right:-30px;top:-30px;width:150px;height:150px;opacity:.95}
+.cricket .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.cricket .meta span{font-family:"Anek";font-size:20px;font-weight:600;background:rgba(255,255,255,.12);padding:5px 12px 3px;border-radius:8px}
+
+/* quick hits */
+.quick{background:var(--ink);color:#F3EDE1;border:none}
+.quick .ttl{font-family:"Anek";font-weight:800;font-size:30px;margin-bottom:16px;color:var(--gold)}
+.qi{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.q{display:flex;gap:14px;align-items:flex-start}
+.q .icbox{width:52px;height:52px;padding:12px;border-radius:14px;background:rgba(255,255,255,.1);color:var(--gold)}
+.q p{font-size:21px;line-height:1.45;color:#EDE7DB;font-weight:500}
+
+/* world */
+.world{background:var(--navy);color:#EEF2F8;margin-top:30px;padding:48px 56px 50px;position:relative;overflow:hidden}
+.world::before{content:"";position:absolute;left:-160px;top:-160px;width:420px;height:420px;border-radius:50%;border:60px solid rgba(242,193,78,.08)}
+.world .sechead h2{color:#fff}
+.world .sechead .rule{background:var(--gold);opacity:.7}
+.globe{width:62px;height:62px;color:var(--gold);flex:none}
+.wgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;position:relative}
+.w{background:var(--navy-2);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;display:flex;gap:18px}
+.w .icbox{width:58px;height:58px;padding:13px;border-radius:15px;background:rgba(242,193,78,.14);color:var(--gold)}
+.w h4{font-family:"Anek";font-weight:700;font-size:27px;color:#fff;margin-bottom:6px;line-height:1.2}
+.w p{font-size:21px;line-height:1.48;color:#C9D3E3;font-weight:500}
+.w.wide{grid-column:span 2}
+
+
+/* photos */
+.ph{position:relative;display:block;margin:-30px -32px 24px;height:230px;overflow:hidden;border-radius:21px 21px 0 0;background:#24312B}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55));pointer-events:none}
+.ph .cap{position:absolute;left:14px;bottom:12px;z-index:2;font-family:"Hind";font-weight:500;font-size:16px;line-height:1.3;color:#fff;background:rgba(10,15,12,.62);padding:5px 11px 3px;border-radius:7px;text-decoration:none;max-width:calc(100% - 28px)}
+.ph .cap:hover{background:rgba(10,15,12,.85)}
+.ph.off{display:none}
+.hero .ph{margin:0;height:340px;border-radius:0}
+.hero .ph::after{background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.6))}
+.econ .ph{height:210px}
+.dengue .ph{height:240px}
+.dengue .ph::after{background:linear-gradient(180deg,rgba(42,14,16,0) 35%,#2A0E10 98%)}
+.cricket .ph{z-index:1}
+.thumb{position:relative;flex:none;width:120px;height:120px;border-radius:14px;overflow:hidden;display:grid;place-items:center;background:rgba(242,193,78,.14);color:var(--gold)}
+.thumb .fb{width:32px;height:32px}
+.thumb a{position:absolute;inset:0}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.off a{display:none}
+
+/* footer */
+.foot{background:#0A1526;color:#97A6BE;padding:24px 56px 30px;font-size:18px;line-height:1.6}
+.foot b{color:#D9E1EE;font-weight:600}
+
+html{background:#E7DFD0}
+body{width:auto}
+.page{max-width:1080px;margin:0 auto;background:var(--paper);box-shadow:0 0 60px rgba(0,0,0,.12)}
+.foot a{color:#C7D3E6;text-decoration:none;border-bottom:1px dotted rgba(199,211,230,.5)}
+.foot a:hover{color:#fff;border-bottom-color:#fff}
+@media (max-width:780px){
+  .mast{padding:40px 22px 40px}
+  .mast .disc{width:240px;height:240px;right:-90px;top:-60px}
+  .mast h1{font-size:64px;margin:16px 0 8px}
+  .pill{font-size:17px}
+  .mast .sub{font-size:18px;gap:10px}
+  .legend{font-size:15px;gap:12px;margin-top:22px}
+  .legend .bar{flex:0 0 150px;height:10px}
+  .sec{padding:30px 16px 4px}
+  .sechead{gap:12px;margin-bottom:18px}
+  .sechead h2{font-size:36px}
+  .flag{width:52px;height:31px}
+  .card{padding:20px;border-radius:18px}
+  .row{grid-template-columns:1fr;gap:14px;margin-bottom:14px}
+  .full{margin-bottom:14px}
+  .kicker{font-size:15px;margin-bottom:10px}
+  .card h3{font-size:26px}
+  .card p{font-size:17px}
+  .sm h3{font-size:25px}
+  .sm p{font-size:17px}
+  .icbox{width:52px;height:52px;padding:12px;border-radius:14px}
+  .hero{padding:0}
+  .mast .sub .sep{display:none}
+  .mast .sub{flex-direction:column;align-items:flex-start;gap:4px}
+  .hero .top{grid-template-columns:1fr;gap:10px;padding:22px 20px 20px}
+  .flags{height:140px}
+  .flags .f1,.flags .f2{width:150px;height:90px}
+  .flags .f2{left:44px;top:46px}
+  .hero h3{font-size:32px}
+  .tag{font-size:15px}
+  .stats{grid-template-columns:1fr}
+  .stat{padding:18px 20px;border-right:none;border-bottom:1px solid rgba(255,255,255,.14)}
+  .stat:last-child{border-bottom:none}
+  .stat .num{font-size:40px}
+  .stat .num small{font-size:22px}
+  .stat .lbl{font-size:16px;margin-top:6px}
+  .econ .head{gap:14px}
+  .bars{grid-template-columns:1fr;gap:20px}
+  .bargrp .t{font-size:20px}
+  .bl{font-size:15px}
+  .bl b{font-size:17px}
+  .track{height:18px}
+  .note{font-size:14px}
+  .dengue .grid{grid-template-columns:1fr;gap:14px}
+  .dengue .big{font-size:96px}
+  .dengue .bigl{font-size:20px}
+  .chips{grid-template-columns:1fr;gap:10px}
+  .chip{display:flex;gap:14px;align-items:center;padding:12px 14px}
+  .chip .num{font-size:30px;flex:none;min-width:120px}
+  .chip .l{font-size:15px;margin-top:0}
+  .tip{font-size:16px}
+  .ball{width:100px;height:100px}
+  .cricket .meta span{font-size:15px}
+  .quick .ttl{font-size:24px}
+  .qi{grid-template-columns:1fr;gap:14px}
+  .q .icbox{width:44px;height:44px;padding:10px}
+  .q p{font-size:16px}
+  .world{padding:32px 16px 34px;margin-top:20px}
+  .globe{width:46px;height:46px}
+  .wgrid{grid-template-columns:1fr;gap:12px}
+  .w{padding:16px 18px;gap:14px}
+  .w .icbox{width:46px;height:46px;padding:11px}
+  .w h4{font-size:20px}
+  .w p{font-size:16px}
+  .foot{padding:20px 16px 26px;font-size:14px}
+  .ph{margin:-20px -20px 16px;height:180px;border-radius:17px 17px 0 0}
+  .ph .cap{font-size:13px;left:10px;bottom:9px}
+  .hero .ph{margin:0;height:210px;border-radius:0}
+  .econ .ph{height:170px}
+  .dengue .ph{height:180px}
+  .thumb{width:84px;height:84px;border-radius:12px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- MASTHEAD -->
+<header class="mast">
+  <div class="disc"></div>
+  <span class="pill"><span class="dot"></span>এক নজরে</span>
+  <h1>আজকের খবর</h1>
+  <div class="sub"><span>মঙ্গলবার, ২৭ অক্টোবর ২০২৬</span><span class="sep"></span><span>পড়তে লাগবে ~২ মিনিট</span></div>
+  <div class="legend">
+    <div class="bar"><i style="width:70%;background:#F6F0E3"></i><i style="width:30%;background:var(--gold)"></i></div>
+    <span>৭০% বাংলাদেশ · ৩০% বিশ্ব</span>
+  </div>
+  <div class="stripe"></div>
+</header>
+
+<!-- BANGLADESH -->
+<section class="sec">
+  <div class="sechead">
+    <div class="flag"><svg class="ic" viewBox="0 0 100 60" preserveAspectRatio="none" role="img" aria-label="বাংলাদেশের পতাকা"><rect width="100" height="60" fill="#006A4E"/><circle cx="45" cy="30" r="20" fill="#F42A41"/></svg></div>
+    <h2>বাংলাদেশ</h2><div class="rule"></div>
+  </div>
+
+  <!-- Hero: Japan -->
+  <div class="card hero full">
+    <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kantei_PM_Japan_Residence.jpg?width=1600" alt="জাপানের প্রধানমন্ত্রীর কার্যালয় (কান্তেই), টোকিও" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Kantei_PM_Japan_Residence.jpg" target="_blank" rel="noopener">ফাইল ছবি · জাপানের প্রধানমন্ত্রীর কার্যালয় (কান্তেই), টোকিও</a></figure>
+    <div class="top">
+      <div class="flags">
+        <div class="f1"><svg class="ic" viewBox="0 0 100 60" preserveAspectRatio="none" role="img" aria-label="বাংলাদেশের পতাকা"><rect width="100" height="60" fill="#006A4E"/><circle cx="45" cy="30" r="20" fill="#F42A41"/></svg></div>
+        <div class="f2"><svg class="ic" viewBox="0 0 90 60" preserveAspectRatio="none" role="img" aria-label="জাপানের পতাকা"><rect width="90" height="60" fill="#FFFFFF"/><circle cx="45" cy="30" r="18" fill="#BC002D"/></svg></div>
+      </div>
+      <div>
+        <span class="kicker">প্রধান খবর · টোকিও</span>
+        <h3>জাপান থেকে বড় বিনিয়োগের আশা</h3>
+        <p>প্রধানমন্ত্রী তারেক রহমান ও জাপানের প্রধানমন্ত্রী সানায়ে তাকাইচির শীর্ষ বৈঠক। আগামী পাঁচ বছরে জাপানি বেসরকারি বিনিয়োগের সম্ভাবনাকে স্বাগত জানাল টোকিও।</p>
+        <div class="tags"><span class="tag">জ্বালানি</span><span class="tag">সংযোগ</span><span class="tag">বিনিয়োগ</span><span class="tag">প্রতিরক্ষা সহযোগিতা</span></div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="num">১ ট্রিলিয়ন<small>ইয়েন</small></div><div class="lbl">≈ ৬.৩ বিলিয়ন ডলার বেসরকারি বিনিয়োগ</div></div>
+      <div class="stat"><div class="num">২ লাখ</div><div class="lbl">নতুন কর্মসংস্থানের প্রত্যাশা</div></div>
+      <div class="stat"><div class="num">৫ বছর</div><div class="lbl">বিনিয়োগের সময়সীমা</div></div>
+    </div>
+  </div>
+
+  <!-- Row: Malaysia + Crash -->
+  <div class="row">
+    <div class="card sm">
+      <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Petronas_Twin_Towers_Kuala_Lumpur_May06.JPG?width=1000" alt="পেট্রোনাস টুইন টাওয়ার, কুয়ালালামপুর" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Petronas_Twin_Towers_Kuala_Lumpur_May06.JPG" target="_blank" rel="noopener">ফাইল ছবি · পেট্রোনাস টুইন টাওয়ার, কুয়ালালামপুর</a></figure>
+      <div class="tophd"><div class="icbox" style="background:#E9F1EC;color:var(--green)"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m11 17 2 2a1 1 0 1 0 3-3" /> <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" /> <path d="m21 3 1 11h-2" /> <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" /> <path d="M3 4h8" /> </svg></div><span class="kicker" style="margin:0">বাণিজ্য</span></div>
+      <h3>মালয়েশিয়ার সঙ্গে মুক্ত বাণিজ্য আলোচনা শুরু</h3>
+      <p>ঢাকায় প্রথম দফা চলবে ২৯ অক্টোবর পর্যন্ত; লক্ষ্য ২০২৭-এর মধ্যে চুক্তি।</p>
+    </div>
+    <div class="card sm">
+      <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dhaka_Chittagong_Highway.jpg?width=1000" alt="ঢাকা–চট্টগ্রাম মহাসড়ক" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Dhaka_Chittagong_Highway.jpg" target="_blank" rel="noopener">ফাইল ছবি · ঢাকা–চট্টগ্রাম মহাসড়ক</a></figure>
+      <div class="tophd"><div class="icbox" style="background:#FCE6E7;color:var(--red)"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M7 18v-6a5 5 0 1 1 10 0v6" /> <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" /> <path d="M21 12h1" /> <path d="M18.5 4.5 18 5" /> <path d="M2 12h1" /> <path d="M12 2v1" /> <path d="m4.929 4.929.707.707" /> <path d="M12 12v6" /> </svg></div><span class="kicker red" style="margin:0">দুর্ঘটনা</span></div>
+      <h3>সীতাকুণ্ডে লরির ধাক্কায় নিহত <span class="bignum-inline">৫</span></h3>
+      <p>ভোরে ঢাকা–চট্টগ্রাম মহাসড়কের ছোট কুমিরায় অপেক্ষমাণ যাত্রী ও দাঁড়ানো বাসে লরির ধাক্কা।</p>
+    </div>
+  </div>
+
+  <!-- Economy -->
+  <div class="card econ full">
+    <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bangladesh_Bank_Building.jpg?width=1000" alt="বাংলাদেশ ব্যাংক ভবন, মতিঝিল" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Bangladesh_Bank_Building.jpg" target="_blank" rel="noopener">ফাইল ছবি · বাংলাদেশ ব্যাংক ভবন, মতিঝিল</a></figure>
+    <div class="head">
+      <div class="icbox" style="background:#FBEFD9;color:#B9731A"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 17h6v-6" /> <path d="m22 17-8.5-8.5-5 5L2 7" /> </svg></div>
+      <div>
+        <span class="kicker amber">অর্থনীতি</span>
+        <h3>বিনিয়োগের খবরের পাশে অর্থনীতির চাপ</h3>
+        <p>ধীর প্রবৃদ্ধি, বাড়তি বাণিজ্য ঘাটতি আর দুর্বল ব্যাংক খাত—তিন সংকটের কথা বলছে নতুন এক প্রতিবেদন।</p>
+      </div>
+    </div>
+    <div class="bars">
+      <div class="bargrp">
+        <div class="t">জিডিপি প্রবৃদ্ধি</div>
+        <div class="bl"><span>অর্জিত (২০২৫-২৬)</span><b>৩.৪%</b></div>
+        <div class="track"><div class="fill" style="width:52.3%;background:#D8892A"></div></div>
+        <div class="bl"><span>সরকারের লক্ষ্য</span><b>৬.৫%</b></div>
+        <div class="track"><div class="fill" style="width:100%;background:#6B7A72"></div></div>
+      </div>
+      <div class="bargrp">
+        <div class="t">দুর্বল ব্যাংক উদ্ধারে অর্থ</div>
+        <div class="bl"><span>বাজেটে বরাদ্দ</span><b>৪০ হাজার কোটি টাকা</b></div>
+        <div class="track"><div class="fill" style="width:6.7%;background:#D8892A"></div></div>
+        <div class="bl"><span>আনুমানিক প্রয়োজন</span><b>৬ লাখ কোটি টাকা</b></div>
+        <div class="track"><div class="fill" style="width:100%;background:#6B7A72"></div></div>
+      </div>
+    </div>
+    <div class="note">২০২৫ সাল শেষে ব্যাংক খাতের মূলধন পর্যাপ্ততা অনুপাত ঋণাত্মক। সূত্র: আইএএনএস প্রতিবেদন (বিশ্বব্যাংক ও বাংলাদেশ ব্যাংকের তথ্য উদ্ধৃত)।</div>
+  </div>
+
+  <!-- Dengue -->
+  <div class="card dengue full">
+    <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aedes_aegypti_CDC-Gathany.jpg?width=1000" alt="এডিস ইজিপ্টাই মশা · ছবি: সিডিসি" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Aedes_aegypti_CDC-Gathany.jpg" target="_blank" rel="noopener">ফাইল ছবি · এডিস ইজিপ্টাই মশা · ছবি: সিডিসি</a></figure>
+    <div class="grid">
+      <div>
+        <div class="big">৩৮৯</div>
+        <div class="bigl">এ বছর ডেঙ্গুতে মৃত্যু</div>
+      </div>
+      <div>
+        <span class="kicker red">স্বাস্থ্য</span>
+        <h3>ডেঙ্গু থামছে না</h3>
+        <div class="chips">
+          <div class="chip"><div class="num">১৪৪</div><div class="l">মৃত্যু শুধু অক্টোবরেই</div></div>
+          <div class="chip"><div class="num">২,২৯৪</div><div class="l">রবিবার এক দিনে ভর্তি, বছরের সর্বোচ্চ</div></div>
+          <div class="chip"><div class="num">+১০৬.৮%</div><div class="l">আক্রান্ত, গত বছরের একই সময়ের তুলনায়</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="tip"><span style="width:30px;height:30px;color:var(--gold);flex:none"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 20v-9" /> <path d="M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z" /> <path d="M14.12 3.88 16 2" /> <path d="M21 21a4 4 0 0 0-3.81-4" /> <path d="M21 5a4 4 0 0 1-3.55 3.97" /> <path d="M22 13h-4" /> <path d="M3 21a4 4 0 0 1 3.81-4" /> <path d="M3 5a4 4 0 0 0 3.55 3.97" /> <path d="M6 13H2" /> <path d="m8 2 1.88 1.88" /> <path d="M9 7.13V6a3 3 0 1 1 6 0v1.13" /> </svg></span>বাসায় জমে থাকা পানি ফেলুন, মশারি ও রিপেলেন্ট ব্যবহার করুন।</div>
+  </div>
+
+  <!-- Row: IGP + Cricket -->
+  <div class="row">
+    <div class="card sm">
+      <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bangladesh_Police_Y61_SUV._%2841723484230%29.jpg?width=1000" alt="বাংলাদেশ পুলিশের গাড়ি" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Bangladesh_Police_Y61_SUV._%2841723484230%29.jpg" target="_blank" rel="noopener">ফাইল ছবি · বাংলাদেশ পুলিশের গাড়ি</a></figure>
+      <div class="tophd"><div class="icbox" style="background:#ECEAF6;color:#3D3A7A"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 3v18" /> <path d="m19 8 3 8a5 5 0 0 1-6 0zV7" /> <path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1" /> <path d="m5 8 3 8a5 5 0 0 1-6 0zV7" /> <path d="M7 21h10" /> </svg></div><span class="kicker ink" style="margin:0">আইনশৃঙ্খলা</span></div>
+      <h3>আইজিপির ‘ক্রসফায়ার’ মন্তব্যে বিতর্ক</h3>
+      <p>মানবাধিকারকর্মীদের কড়া সমালোচনা। পুলিশ সদর দপ্তরের ব্যাখ্যা: বিচারবহির্ভূত হত্যা বোঝানো হয়নি।</p>
+    </div>
+    <div class="card sm cricket">
+      <svg class="ball" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#C8202F"/><path d="M22 18 C40 40 40 60 22 82" stroke="#F6F0E3" stroke-width="2.4" fill="none" stroke-dasharray="4 3"/><path d="M28 14 C47 38 47 62 28 86" stroke="#F6F0E3" stroke-width="2.4" fill="none" stroke-dasharray="4 3"/><circle cx="36" cy="34" r="10" fill="#fff" opacity=".18"/></svg>
+      <figure class="ph"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sher-e-Bangla_National_Cricket_Stadium.jpg?width=1000" alt="শেরেবাংলা জাতীয় ক্রিকেট স্টেডিয়াম, মিরপুর" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('off')"><a class="cap" href="https://commons.wikimedia.org/wiki/File:Sher-e-Bangla_National_Cricket_Stadium.jpg" target="_blank" rel="noopener">ফাইল ছবি · শেরেবাংলা জাতীয় ক্রিকেট স্টেডিয়াম, মিরপুর</a></figure>
+      <div class="tophd"><div class="icbox" style="background:rgba(255,255,255,.12);color:var(--gold)"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /> <path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /> <path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /> <path d="M4 22h16" /> <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /> <path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /> </svg></div><span class="kicker" style="margin:0;background:var(--gold);color:var(--green-d)">খেলা</span></div>
+      <h3>কাল থেকে মিরপুরে টাইগার বনাম উইন্ডিজ</h3>
+      <p>প্রথম টেস্ট, অধিনায়ক শান্ত। ফিরেছেন তাসকিন, চোটে নেই নাহিদ রানা।</p>
+      <div class="meta"><span>WTC টেবিলে ৪র্থ</span><span>৫৫.৫৬%</span></div>
+    </div>
+  </div>
+
+  <!-- Quick hits -->
+  <div class="card quick full">
+    <div class="ttl">সংক্ষেপে</div>
+    <div class="qi">
+      <div class="q"><div class="icbox"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" /> </svg></div><p>মজুরি বৃদ্ধির দাবিতে ঢাকা–টাঙ্গাইল মহাসড়ক অবরোধ পোশাকশ্রমিকদের</p></div>
+      <div class="q"><div class="icbox"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3.1V7a4 4 0 0 0 8 0V3.1" /> <path d="m9 15-1-1" /> <path d="m15 15 1-1" /> <path d="M9 19c-2.8 0-5-2.2-5-5v-4a8 8 0 0 1 16 0v4c0 2.8-2.2 5-5 5Z" /> <path d="m8 19-2 3" /> <path d="m16 19 2 3" /> </svg></div><p>পঞ্চগড় থেকে কক্সবাজার পর্যন্ত সরাসরি ট্রেন সংযোগ</p></div>
+      <div class="q"><div class="icbox"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="m19 9-5 5-4-4-3 3" /> </svg></div><p>মিউচুয়াল ফান্ড কারসাজির অভিযোগে তদন্তে বিএসইসি</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORLD -->
+<section class="world">
+  <div class="sechead">
+    <div class="globe"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" /> </svg></div>
+    <h2>বিশ্ব</h2><div class="rule"></div>
+  </div>
+  <div class="wgrid">
+    <div class="w"><div class="thumb"><span class="fb"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m9 12 2 2 4-4" /> <path d="M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z" /> <path d="M22 19H2" /> </svg></span><a href="https://commons.wikimedia.org/wiki/File:Knesset_in_Jerusalem_Israel.jpg" target="_blank" rel="noopener" title="ফাইল ছবি · ক্নেসেট ভবন, জেরুজালেম"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Knesset_in_Jerusalem_Israel.jpg?width=300" alt="ক্নেসেট ভবন, জেরুজালেম" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.thumb').classList.add('off')"></a></div><div><h4>ইসরায়েলে আজ ভোট</h4><p>নেতানিয়াহুর প্রধান প্রতিদ্বন্দ্বী সাবেক সেনাপ্রধান গাদি আইজেনকট; সরকার গড়তে লাগবে ১২০-এর মধ্যে ৬১ আসন।</p></div></div>
+    <div class="w"><div class="thumb"><span class="fb"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" /> <path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14" /> <path d="M8 6v8" /> </svg></span><a href="https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg" target="_blank" rel="noopener" title="ফাইল ছবি · ইউএস ক্যাপিটল, ওয়াশিংটন"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Capitol_west_front_edit2.jpg?width=300" alt="ইউএস ক্যাপিটল, ওয়াশিংটন" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.thumb').classList.add('off')"></a></div><div><h4>যুক্তরাষ্ট্রে মধ্যবর্তী নির্বাচনের শেষ প্রচার</h4><p>টেক্সাসে রিপাবলিকান প্রার্থীর পক্ষে ট্রাম্প, জর্জিয়ায় ডেমোক্র্যাট প্রার্থীর পক্ষে ওবামা।</p></div></div>
+    <div class="w"><div class="thumb"><span class="fb"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></span><a href="https://commons.wikimedia.org/wiki/File:Brasilia_-_Congresso_Nacional.jpg" target="_blank" rel="noopener" title="ফাইল ছবি · ব্রাজিলের জাতীয় কংগ্রেস, ব্রাসিলিয়া"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Brasilia_-_Congresso_Nacional.jpg?width=300" alt="ব্রাজিলের জাতীয় কংগ্রেস, ব্রাসিলিয়া" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.thumb').classList.add('off')"></a></div><div><h4>লাতিন আমেরিকা</h4><p>ব্রাজিলে পুনর্নির্বাচিত লুলা, তবে কংগ্রেস বৈরী। নির্বাসন শেষে ভেনেজুয়েলায় ফিরলেন মাচাদো।</p></div></div>
+    <div class="w"><div class="thumb"><span class="fb"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /> </svg></span><a href="https://commons.wikimedia.org/wiki/File:Kyiv_skyline_%2815688086793%29.jpg" target="_blank" rel="noopener" title="ফাইল ছবি · কিয়েভ শহর"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kyiv_skyline_%2815688086793%29.jpg?width=300" alt="কিয়েভ শহর" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.thumb').classList.add('off')"></a></div><div><h4>রাশিয়া–ইউক্রেন যুদ্ধ</h4><p>কিয়েভে রাতভর রুশ হামলা; রাশিয়ার ভোরোনেঝ অঞ্চলে ইউক্রেনের ড্রোন হামলা।</p></div></div>
+    <div class="w"><div class="thumb"><span class="fb"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <line x1="22" x2="18" y1="12" y2="12" /> <line x1="6" x2="2" y1="12" y2="12" /> <line x1="12" x2="12" y1="6" y2="2" /> <line x1="12" x2="12" y1="22" y2="18" /> </svg></span><a href="https://commons.wikimedia.org/wiki/File:Panmunjeom.jpg" target="_blank" rel="noopener" title="ফাইল ছবি · পানমুনজম, কোরীয় সীমান্ত"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Panmunjeom.jpg?width=300" alt="পানমুনজম, কোরীয় সীমান্ত" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.thumb').classList.add('off')"></a></div><div><h4>কোরীয় উপদ্বীপে উত্তেজনা</h4><p>পশ্চিম সীমান্তে দক্ষিণমুখী স্বচালিত কামান মোতায়েন করল উত্তর কোরিয়া।</p></div></div>
+    <div class="w"><div class="thumb"><span class="fb"><svg class="ic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 7h6v6" /> <path d="m22 7-8.5 8.5-5-5L2 17" /> </svg></span><a href="https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_%2851494550508%29.jpg" target="_blank" rel="noopener" title="ফাইল ছবি · নাসডাক মার্কেটসাইট, নিউইয়র্ক"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq_MarketSite_%2851494550508%29.jpg?width=300" alt="নাসডাক মার্কেটসাইট, নিউইয়র্ক" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.thumb').classList.add('off')"></a></div><div><h4>শেয়ারবাজার ও প্রযুক্তি</h4><p>নাসডাকে আইপিওর আবেদন এআই প্রতিষ্ঠান অ্যানথ্রপিকের; নিউইয়র্কের সূচক ঊর্ধ্বমুখী।</p></div></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <b>সূত্র:</b> <a href="https://www.tbsnews.net/foreign-policy/dhaka-tokyo-deepen-partnership-eye-trillion-yen-investment-prospects-1584371">দ্য বিজনেস স্ট্যান্ডার্ড</a>, <a href="https://bdnews24.com/health/rlyheckrth">বিডিনিউজ২৪</a>, <a href="https://www.dhakatribune.com/bangladesh/health/422982/dengue-surge-raises-questions-over-government">ঢাকা ট্রিবিউন</a>, <a href="https://bangladeshpost.net/posts/five-more-die-of-dengue-as-2-218-patients-hospitalised-174852">বাংলাদেশ পোস্ট</a>, <a href="https://ianslive.in/bangladesh-suffers-from-intertwined-growth-trade-and-banking-crises--20261027143000">আইএএনএস</a>, <a href="https://www.euronews.com/video/2026/10/27/latest-news-bulletin-october-27th-2026-morning">ইউরোনিউজ</a>, <a href="https://news.sbs.co.kr/english/article.do?news_id=N1008816003">এসবিএস নিউজ</a>, <a href="https://wng.org/podcasts/the-world-and-everything-in-it-october-27-2026-1793034222">ওয়ার্ল্ড রেডিও</a>, <a href="https://www.10things.news/p/10-things-global-news-27th-october-e39">১০ থিংস গ্লোবাল নিউজ</a>।<br>
+  <b>ছবি:</b> উইকিমিডিয়া কমন্স (মুক্ত লাইসেন্স)। সবই ফাইল ছবি, আজকের ঘটনার নয়। প্রতিটি ছবির ক্যাপশন বা ছবিতে ক্লিক করলে আলোকচিত্রী ও লাইসেন্সের বিবরণ পাবেন।<br>
+  তথ্য হালনাগাদ: ২৭ অক্টোবর ২০২৬, বিকেল ৩টা (ঢাকা সময়)
+</footer>
+
+</div>
+</body>
+</html>

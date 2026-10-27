@@ -1,0 +1,15 @@
+{
+  "name": "eknojore",
+  "private": true,
+  "description": "এক নজরে — a daily Bengali news digest, published as a static site on GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/build.mjs --local && node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "add-edition": "node scripts/add.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "এক নজরে",
+  "tagline": "এক নজরে আজকের শীর্ষ খবর: বাংলাদেশ ও বিশ্ব",
+  "lang": "bn",
+  "locale": "bn_BD",
+  "url": "",
+  "utcOffset": "+06:00",
+  "themeColor": "#073326",
+  "recentEditions": 6,
+  "feedItems": 30
+}
